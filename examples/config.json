@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "db": {
+      "type": "mysql",
+      "host": "localhost",
+      "port": 3306,
+      "user": "root",
+      "password": "",
+      "database": "mydb"
+    },
+    "mailing": {
+      "host": "localhost"
+    },
+    "new": 1,
+    "port": 10001
+  },
+  "prod": {
+    "extends": "dev",
+    "xx": 42,
+    "mailing": {
+        "host": "smtp.gmail.com"
+    },
+    "new": 0
+  },
+  "app.mydomain.tld": {
+    "extends": "prod",
+    "db": {
+      "password": "othersecret"
+    },
+    "mailing": {
+        "host": "custom-smtp.myserver.foo",
+        "port": 465,
+        "useSSL": true
+    }
+  }
+}
