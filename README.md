@@ -4,14 +4,14 @@ A simple and minimalist environment-aware configuration provider
 
 ## Installation
 
-Run `npm i config-json` and start using it :-)
+Run `npm i json4config` and start using it :-)
 
 ## Introduction
 
 Use the following code to conveniently get config values for a environment (in this case `prod` - see end of first line):
 
 ```javascript
-const cfg = require('config-json')('./config.json', 'prod');
+const cfg = require('json4config')('./config.json', 'prod');
 
 console.log(cfg.get('mailing.host'));
 console.log(cfg.get('mailing.port', 25)); // <-- Default fallback value

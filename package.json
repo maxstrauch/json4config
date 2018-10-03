@@ -1,6 +1,6 @@
 {
   "name": "json4config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and minimalist environment-aware configuration provider",
   "main": "./src/index.js",
   "scripts": {

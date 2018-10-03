@@ -1,4 +1,4 @@
-const cfg = require('../src/index'); // <-- This is replaced with require('config-json');
+const cfg = require('../src/index'); // <-- This is replaced with require('json4config');
 
 // By default the configuration is loaded for environment 'dev'
 let theConfiguration = cfg('./config.json');
