@@ -1,6 +1,6 @@
-# config-json
+# json4config
 
-    A simple and minimalist environment-aware configuration provider
+A simple and minimalist environment-aware configuration provider
 
 ## Installation
 
